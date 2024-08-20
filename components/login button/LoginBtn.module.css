@@ -1,0 +1,18 @@
+.btn {
+    width: 52px;
+    height: 27px;
+    padding: 4px 8px 4px 8px;
+    gap: 10px;
+    border-radius: 6px;
+    opacity: 0px;
+    font-family: "Noto Sans", "sans-serif";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.07px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #000000;
+    border: none;
+}

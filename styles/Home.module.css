@@ -1,0 +1,105 @@
+
+
+
+.h2 {
+  font-family: "Inter";
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26.4px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin-bottom: 48px;
+}
+
+.p {
+  font-family: "Noto Sans";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  
+}
+
+.ul {
+  width: 100%;
+  list-style: none;
+}
+
+.li {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-family: "Noto serif", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24.52px;
+  color: #111111;
+  margin-bottom: 8px;
+}
+
+.bullet_point {
+  font-family: "Noto sans", sans-serif;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5B86F3;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+.main_page_bottom_div {
+  width: 481px;
+  height: 118px;
+  top: 481px;
+  left: 399px;
+  padding: 0px 30px 30px 30px;
+  gap: 20px;
+  opacity: 0px;
+  margin: 0 auto;
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.p a {
+  text-decoration: underline;
+}
+
+/*######################*/
+
+@media (max-width: 768px) {
+  .logo_cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 42px 40px 42px 0px;
+  }
+
+  .h2 {
+    margin-left: 20px;
+    width: 300px;
+    text-align: left;
+    margin-top: 12px;
+  }
+
+  .ul {
+    margin-left: 20px;
+  }
+
+  .p {
+    margin-left: -20px;
+  }
+  .main_page_bottom_div {
+    width: 400px;
+    margin-right: 30px;
+  }
+}
