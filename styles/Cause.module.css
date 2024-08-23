@@ -205,9 +205,10 @@
 
 .container {
     display: flex;
-    width: calc(60vw);
+    width: 900px;
+    margin: 0 auto;
     align-content: flex-end;
-  }
+}
 
 .charity_description {
     font-family: "Noto sans";
