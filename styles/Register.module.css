@@ -101,24 +101,17 @@
 /*########################################*/
 
 @media (max-width: 768px) {
+
     .h1 {
-        margin-top: 60px;
-        margin-left: 50px;
-        
+        margin-top: 60px;    
+        width: 380px;
+        margin-left: 40px;
     }
 
     .subtitle {
         width: 315px;
         text-align: left;
-        margin: 16px 0px 16px 50px;
-    }
-
-    .inputs_cont, .h4 {
-        margin-left: 50px;
-    }
-
-    .divider, .google_btn {
-        margin-left: 50px;
+        margin: 16px 0px 0px 50px;
     }
 
     .separater {
@@ -129,7 +122,7 @@
     }
 
     .register_page_bottom_div {
-        padding-right: 100px;
-        padding-top: 100px;
+        height: 60px;
+        margin-right: 20px;
     }
 }
